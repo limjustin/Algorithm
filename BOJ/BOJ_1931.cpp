@@ -56,6 +56,8 @@ int main(void) {
 	// N의 최대 값인 100,000일 때는 10,000,000,000번 연산이 되어버림
 	// 따라서 시간 초과가 나올 수 밖에 없음
 	// 불필요한 연산은 하지 말자!! -> "정렬이 매우 중요"
+	// 얻어갈 점 : "정렬만 잘 하면 for문 하나 줄일 수 있다!!"
+	
 	for (iter = v.begin(); iter != v.end(); iter++) {
 		int count = 1;
 		iter3 = iter; // copy iterator
